@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import CustomersHome from '@/components/CustomersHome'
 import CustomerPage from '@/components/CustomerPage'
 import FAQ from '@/components/FAQ'
-import BlogHome from '@/components/BlogHome'
+import BlogTest from '@/components/BlogTest'
 import BlogPost from '@/components/BlogPost'
 import RssAtomSitemap from '@/components/RssAtomSitemap'
 
@@ -36,7 +36,7 @@ export default new Router({
     {
       path: '/blog/',
       name: 'blog-test',
-      component: BlogHome
+      component: BlogTest
     },
     {
       path: '/blog/:slug',
