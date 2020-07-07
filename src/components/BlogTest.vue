@@ -1,5 +1,5 @@
 <template>
-  <div id="blog-home" class="section">
+  <div id="blog-test" class="section">
     <div class="container">
       <h1 class="is-size-1">{{ page_title }}</h1>
       <hr>
